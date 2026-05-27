@@ -1,6 +1,8 @@
 from domain.entities.empleado import Empleado
+from domain.interfaces.empleado_repository import AbstractEmpleadoRepository
 
-class EmpleadoRepository:
+
+class EmpleadoRepository(AbstractEmpleadoRepository):
     def get_all(self):
         return Empleado.objects.select_related('compania').all()
 

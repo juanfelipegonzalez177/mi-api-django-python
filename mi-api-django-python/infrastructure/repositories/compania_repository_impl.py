@@ -1,6 +1,8 @@
 from domain.entities.compania import Compania
+from domain.interfaces.compania_repository import AbstractCompaniaRepository
 
-class CompaniaRepository:
+
+class CompaniaRepository(AbstractCompaniaRepository):
     def get_all(self):
         return Compania.objects.all()
 

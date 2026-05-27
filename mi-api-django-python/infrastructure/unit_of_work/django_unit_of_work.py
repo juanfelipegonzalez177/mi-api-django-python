@@ -1,11 +1,12 @@
 import logging
 from django.db import transaction
+from domain.interfaces.unit_of_work import AbstractUnitOfWork
 from infrastructure.repositories.compania_repository_impl import CompaniaRepository
 from infrastructure.repositories.empleado_repository_impl import EmpleadoRepository
 
 logger = logging.getLogger(__name__)
 
-class DjangoUnitOfWork:
+class DjangoUnitOfWork(AbstractUnitOfWork):
     def __init__(self):
         self.companias = CompaniaRepository()
         self.empleados = EmpleadoRepository()

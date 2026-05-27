@@ -1,10 +1,23 @@
 import logging
-from rest_framework.views import APIView
-from rest_framework.response import Response
-from rest_framework import status
+
+from application.dtos.compania_dto import CompaniaConEmpleadosSerializer, CompaniaSerializer
 from application.services.compania_service import CompaniaService
+from rest_framework import status
+from rest_framework.response import Response
+from rest_framework.views import APIView
 
 logger = logging.getLogger(__name__)
+
+
+def compania_to_dict(compania):
+    return {
+        'id': compania.id,
+        'nombre': compania.nombre,
+        'direccion': compania.direccion,
+        'telefono': compania.telefono,
+        'fecha_creacion': compania.fecha_creacion,
+    }
+
 
 class CompaniasView(APIView):
     def __init__(self, **kwargs):
@@ -13,21 +26,18 @@ class CompaniasView(APIView):
 
     def get(self, request):
         companias = self.service.get_all()
-        data = [{
-            'id': c.id,
-            'nombre': c.nombre,
-            'direccion': c.direccion,
-            'telefono': c.telefono,
-            'fecha_creacion': c.fecha_creacion
-        } for c in companias]
-        return Response(data, status=status.HTTP_200_OK)
+        return Response([compania_to_dict(c) for c in companias], status=status.HTTP_200_OK)
 
     def post(self, request):
+        serializer = CompaniaSerializer(data=request.data)
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
         try:
-            compania = self.service.create(request.data)
-            return Response({'id': compania.id, 'nombre': compania.nombre}, status=status.HTTP_201_CREATED)
+            compania = self.service.create(serializer.validated_data)
+            return Response(compania_to_dict(compania), status=status.HTTP_201_CREATED)
         except Exception as e:
-            logger.error(f"Error creando compañía: {e}")
+            logger.error(f"Error creando compania: {e}")
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
 
 
@@ -39,13 +49,17 @@ class CompaniaDetailView(APIView):
     def get(self, request, id):
         compania = self.service.get_by_id(id)
         if not compania:
-            return Response({'error': 'No encontrada'}, status=status.HTTP_404_NOT_FOUND)
-        return Response({'id': compania.id, 'nombre': compania.nombre, 'direccion': compania.direccion, 'telefono': compania.telefono})
+            return Response({'error': 'Compania no encontrada'}, status=status.HTTP_404_NOT_FOUND)
+        return Response(compania_to_dict(compania), status=status.HTTP_200_OK)
 
     def put(self, request, id):
+        serializer = CompaniaSerializer(data=request.data)
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
         try:
-            compania = self.service.update(id, request.data)
-            return Response({'id': compania.id, 'nombre': compania.nombre})
+            compania = self.service.update(id, serializer.validated_data)
+            return Response(compania_to_dict(compania), status=status.HTTP_200_OK)
         except ValueError as e:
             return Response({'error': str(e)}, status=status.HTTP_404_NOT_FOUND)
 
@@ -63,9 +77,13 @@ class CompaniaConEmpleadosView(APIView):
         self.service = CompaniaService()
 
     def post(self, request):
+        serializer = CompaniaConEmpleadosSerializer(data=request.data)
+        if not serializer.is_valid():
+            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
         try:
-            compania = self.service.create_con_empleados(request.data)
-            return Response({'id': compania.id, 'nombre': compania.nombre}, status=status.HTTP_201_CREATED)
+            compania = self.service.create_con_empleados(serializer.validated_data)
+            return Response(compania_to_dict(compania), status=status.HTTP_201_CREATED)
         except Exception as e:
-            logger.error(f"Error en transacción: {e}")
-            return Response({'error': str(e)}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
+            logger.error(f"Error en transaccion: {e}")
+            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)

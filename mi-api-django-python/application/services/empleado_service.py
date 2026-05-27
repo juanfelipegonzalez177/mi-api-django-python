@@ -18,6 +18,8 @@ class EmpleadoService:
 
     def create(self, data: dict):
         with self.uow:
+            if not self.uow.companias.get_by_id(data['compania_id']):
+                raise ValueError("Compania no encontrada")
             empleado = self.uow.empleados.create(data)
             empleado.save()
             logger.info(f"Empleado creado: {empleado.nombre}")
@@ -28,6 +30,8 @@ class EmpleadoService:
             empleado = self.uow.empleados.get_by_id(id)
             if not empleado:
                 raise ValueError("Empleado no encontrado")
+            if not self.uow.companias.get_by_id(data['compania_id']):
+                raise ValueError("Compania no encontrada")
             updated = self.uow.empleados.update(empleado, data)
             updated.save()
             return updated

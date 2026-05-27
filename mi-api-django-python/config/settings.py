@@ -1,9 +1,17 @@
+import sys
 from pathlib import Path
 from decouple import config
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+try:
+    import drf_yasg  # noqa: F401
+    HAS_DRF_YASG = True
+except ImportError:
+    HAS_DRF_YASG = False
 
-SECRET_KEY = config('SECRET_KEY')
+BASE_DIR = Path(__file__).resolve().parent.parent
+IS_TESTING = 'test' in sys.argv
+
+SECRET_KEY = config('SECRET_KEY', default='django-insecure-local-dev-key')
 DEBUG = config('DEBUG', default=True, cast=bool)
 ALLOWED_HOSTS = ['*']
 
@@ -19,8 +27,10 @@ INSTALLED_APPS = [
     'infrastructure',
     'application',
     'api',
-    'drf_yasg',
 ]
+
+if HAS_DRF_YASG:
+    INSTALLED_APPS.append('drf_yasg')
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -53,16 +63,24 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': config('DB_NAME'),
-        'USER': config('DB_USER'),
-        'PASSWORD': config('DB_PASSWORD'),
-        'HOST': config('DB_HOST'),
-        'PORT': config('DB_PORT'),
+if IS_TESTING:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': ':memory:',
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': config('DB_ENGINE', default='django.db.backends.postgresql'),
+            'NAME': config('DB_NAME'),
+            'USER': config('DB_USER', default=''),
+            'PASSWORD': config('DB_PASSWORD', default=''),
+            'HOST': config('DB_HOST', default=''),
+            'PORT': config('DB_PORT', default=''),
+        }
+    }
 
 LANGUAGE_CODE = 'es-co'
 TIME_ZONE = 'America/Bogota'
@@ -70,6 +88,8 @@ USE_I18N = True
 USE_TZ = True
 STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+LOGGING_HANDLERS = ['console'] if IS_TESTING else ['console', 'file']
 
 LOGGING = {
     'version': 1,
@@ -92,7 +112,7 @@ LOGGING = {
         },
     },
     'root': {
-        'handlers': ['console', 'file'],
+        'handlers': LOGGING_HANDLERS,
         'level': 'INFO',
     },
 }
