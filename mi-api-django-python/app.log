@@ -1,0 +1,113 @@
+[INFO] 2026-05-21 13:36:59,323 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-21 13:37:26,855 log — Not Found: /favicon.ico
+[WARNING] 2026-05-21 13:41:35,588 log — Not Found: /api/empleados/companias
+[WARNING] 2026-05-21 13:41:59,051 log — Method Not Allowed: /api/companias/con-empleados/
+[WARNING] 2026-05-21 13:42:18,651 log — Method Not Allowed: /api/companias/con-empleados/
+[INFO] 2026-05-21 13:44:37,212 autoreload — C:\ADSO-3278641-4T\mi-api-django-python\domain\__init__.py changed, reloading.
+[INFO] 2026-05-21 13:44:38,099 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-21 13:44:41,799 autoreload — C:\ADSO-3278641-4T\mi-api-django-python\infrastructure\__init__.py changed, reloading.
+[INFO] 2026-05-21 13:44:42,555 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-21 13:44:43,992 autoreload — C:\ADSO-3278641-4T\mi-api-django-python\infrastructure\unit_of_work\__init__.py changed, reloading.
+[INFO] 2026-05-21 13:44:44,746 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-21 13:44:46,148 autoreload — C:\ADSO-3278641-4T\mi-api-django-python\application\services\__init__.py changed, reloading.
+[INFO] 2026-05-21 13:44:46,854 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-21 13:44:50,347 autoreload — C:\ADSO-3278641-4T\mi-api-django-python\api\__init__.py changed, reloading.
+[INFO] 2026-05-21 13:44:51,219 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-21 13:44:52,646 autoreload — C:\ADSO-3278641-4T\mi-api-django-python\api\routes\__init__.py changed, reloading.
+[INFO] 2026-05-21 13:44:53,422 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-21 13:49:33,730 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-21 13:49:52,942 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-21 13:56:26,797 log — Method Not Allowed: /api/companias/con-empleados/
+[INFO] 2026-05-24 23:50:08,832 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-24 23:50:49,947 log — Not Found: /
+[INFO] 2026-05-24 23:54:39,718 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-24 23:55:15,974 log — Not Found: /
+[WARNING] 2026-05-24 23:55:16,114 log — Not Found: /favicon.ico
+[WARNING] 2026-05-24 23:55:36,885 log — Not Found: /api/
+[WARNING] 2026-05-24 23:56:32,110 log — Not Found: /swagger/
+[INFO] 2026-05-24 23:58:12,147 autoreload — C:\Users\MI PC\Downloads\mi-api-django-python\mi-api-django-python\config\urls.py changed, reloading.
+[INFO] 2026-05-24 23:58:13,602 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-25 00:03:20,087 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-25 00:04:35,712 autoreload — C:\Users\MI PC\Downloads\mi-api-django-python\mi-api-django-python\config\urls.py changed, reloading.
+[INFO] 2026-05-25 00:04:36,965 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-25 00:04:39,765 log — Not Found: /
+[WARNING] 2026-05-25 00:04:42,480 log — Not Found: /
+[WARNING] 2026-05-25 00:06:42,484 log — Not Found: /api/docs/
+[WARNING] 2026-05-25 00:06:59,388 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:30,838 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:32,197 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:32,406 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:32,636 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:33,138 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:33,499 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:33,728 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:33,911 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:34,067 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:34,267 log — Not Found: /empleados
+[WARNING] 2026-05-25 00:07:51,945 log — Not Found: /
+[WARNING] 2026-05-25 00:08:01,353 log — Not Found: /docs
+[WARNING] 2026-05-25 00:08:12,332 log — Not Found: /empleados
+[INFO] 2026-05-25 00:44:53,118 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-25 00:45:08,348 log — Not Found: /
+[WARNING] 2026-05-25 00:45:09,122 log — Not Found: /
+[WARNING] 2026-05-25 00:45:25,605 log — Not Found: /docs
+[INFO] 2026-05-25 00:52:08,742 autoreload — C:\Users\MI PC\Downloads\mi-api-django-python\mi-api-django-python\config\settings.py changed, reloading.
+[INFO] 2026-05-25 00:52:10,534 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-25 01:05:34,810 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:05:36,067 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:05:36,069 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:05:36,072 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:05:52,774 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:05:53,732 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:05:53,733 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:05:53,734 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:08:13,138 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:08:14,381 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:08:14,381 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:08:14,382 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:08:53,622 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:08:54,631 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:08:54,632 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:08:54,633 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:08:56,333 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:08:57,320 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:08:57,321 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:08:57,322 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:08:58,791 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:08:59,782 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:08:59,782 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:08:59,783 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:09:58,810 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:09:59,916 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:09:59,917 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:09:59,918 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:10:28,364 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:10:29,405 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:10:29,405 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:10:29,406 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:12:07,713 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-25 01:12:08,922 django_unit_of_work — Error en transacción: 'nombre'. Ejecutando rollback.
+[ERROR] 2026-05-25 01:12:08,922 companias_controller — Error en transacción: 'nombre'
+[ERROR] 2026-05-25 01:12:08,923 log — Internal Server Error: /api/companias/con-empleados/
+[INFO] 2026-05-25 01:12:38,967 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-25 01:12:40,277 compania_service — Compañía creada con empleados: Tech SAS
+[INFO] 2026-05-25 01:12:40,460 compania_service — Empleado creado: Juan
+[ERROR] 2026-05-25 01:12:40,620 django_unit_of_work — Error en transacción: duplicate key value violates unique constraint "empleados_correo_key"
+DETAIL:  Key (correo)=(repetido@mail.com) already exists.
+. Ejecutando rollback.
+[ERROR] 2026-05-25 01:12:40,777 companias_controller — Error en transacción: duplicate key value violates unique constraint "empleados_correo_key"
+DETAIL:  Key (correo)=(repetido@mail.com) already exists.
+
+[ERROR] 2026-05-25 01:12:40,778 log — Internal Server Error: /api/companias/con-empleados/
+[WARNING] 2026-05-25 01:17:20,193 log — Not Found: /api/companias/con-empleados/\n
+[WARNING] 2026-05-25 01:17:35,356 log — Not Found: /api/companias/con-empleados/\n
+[WARNING] 2026-05-25 01:17:57,610 log — Not Found: /api/companias/con-empleados/\n
+[WARNING] 2026-05-25 01:19:37,353 log — Not Found: /api/companias/con-empleados/\n
+[WARNING] 2026-05-25 01:20:16,473 log — Not Found: /api/companias/con-empleados\n
+[WARNING] 2026-05-25 01:21:24,295 log — Not Found: /api/companias/con-empleados\n
+[INFO] 2026-05-25 01:21:53,326 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-25 01:21:54,884 compania_service — Compañía creada con empleados: Nueva SAS
+[INFO] 2026-05-25 01:21:55,046 compania_service — Empleado creado: Carlos
+[INFO] 2026-05-25 01:21:55,292 compania_service — Empleado creado: Sara
+[INFO] 2026-05-25 01:27:41,501 autoreload — C:\Users\MI PC\Downloads\mi-api-django-python\mi-api-django-python\domain\entities\compania.py changed, reloading.
+[INFO] 2026-05-25 01:27:42,738 autoreload — Watching for file changes with StatReloader
