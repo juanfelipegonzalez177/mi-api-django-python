@@ -1,0 +1,212 @@
+[INFO] 2026-05-27 12:54:48,522 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-27 12:55:33,667 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-27 12:55:39,188 log — Not Found: /
+[WARNING] 2026-05-27 12:55:40,384 log — Not Found: /favicon.ico
+[WARNING] 2026-05-27 12:56:01,312 log — Method Not Allowed: /api/auth/registro/
+[WARNING] 2026-05-27 12:56:20,957 log — Method Not Allowed: /api/auth/login/
+[INFO] 2026-05-27 13:04:20,562 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-27 13:19:15,525 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-27 13:19:30,049 log — Not Found: /
+[WARNING] 2026-05-27 13:19:36,456 log — Method Not Allowed: /api/auth/login/
+[WARNING] 2026-05-27 13:20:36,259 log — Unprocessable Content: /api/auth/login/
+[WARNING] 2026-05-27 13:22:14,029 log — Unprocessable Content: /api/auth/login/
+[INFO] 2026-05-27 13:29:16,289 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-27 13:29:19,213 log — Not Found: /
+[WARNING] 2026-05-27 13:29:25,080 log — Method Not Allowed: /api/auth/login/
+[ERROR] 2026-05-27 13:29:55,678 error_middleware — Error inesperado: relation "usuarios" does not exist
+LINE 1: ..."."compania_id", "usuarios"."fecha_creacion" FROM "usuarios"...
+                                                             ^
+
+[ERROR] 2026-05-27 13:29:55,679 log — Internal Server Error: /api/auth/login/
+[WARNING] 2026-05-27 13:29:55,837 log — Method Not Allowed: /api/auth/login/
+[INFO] 2026-05-27 13:34:30,444 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:41:20,457 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-27 13:41:24,762 log — Not Found: /
+[WARNING] 2026-05-27 13:41:31,955 log — Method Not Allowed: /api/auth/login/
+[WARNING] 2026-05-27 13:41:43,780 log — Unauthorized: /api/auth/login/
+[WARNING] 2026-05-27 13:43:17,582 log — Not Found: /
+[WARNING] 2026-05-27 13:43:25,345 log — Unauthorized: /api/companias/
+[WARNING] 2026-05-27 13:43:48,515 log — Method Not Allowed: /api/auth/registro/
+[WARNING] 2026-05-27 13:44:14,235 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:44:34,517 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:44:41,955 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:45:21,616 log — Not Found: /
+[WARNING] 2026-05-27 13:45:33,391 log — Not Found: /auth/login/
+[WARNING] 2026-05-27 13:45:46,626 log — Not Found: /api/uth/login/
+[WARNING] 2026-05-27 13:45:50,721 log — Method Not Allowed: /api/auth/login/
+[WARNING] 2026-05-27 13:46:32,533 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:46:46,853 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:46:54,846 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:47:01,060 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:47:20,612 log — Not Found: /
+[WARNING] 2026-05-27 13:47:27,147 log — Method Not Allowed: /api/auth/registro/
+[WARNING] 2026-05-27 13:47:37,693 log — Unprocessable Content: /api/auth/registro/
+[WARNING] 2026-05-27 13:47:48,402 log — Unprocessable Content: /api/auth/registro/
+[WARNING] 2026-05-27 13:48:09,461 log — Unprocessable Content: /api/auth/registro/
+[WARNING] 2026-05-27 13:48:25,757 log — Unprocessable Content: /api/auth/registro/
+[WARNING] 2026-05-27 13:48:43,260 log — Unprocessable Content: /api/auth/registro/
+[WARNING] 2026-05-27 13:48:51,141 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:48:51,615 log — Not Found: /
+[WARNING] 2026-05-27 13:48:51,683 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:48:51,698 log — Method Not Allowed: /api/auth/login/
+[WARNING] 2026-05-27 13:48:51,715 log — Method Not Allowed: /api/auth/registro/
+[WARNING] 2026-05-27 13:49:16,708 log — Not Found: /api/auth/rlogin/
+[WARNING] 2026-05-27 13:49:22,098 log — Method Not Allowed: /api/auth/login/
+[WARNING] 2026-05-27 13:49:28,163 log — Unauthorized: /api/auth/login/
+[WARNING] 2026-05-27 13:50:05,399 log — Unauthorized: /api/empleados/
+[WARNING] 2026-05-27 13:50:17,039 log — Not Found: /
+[WARNING] 2026-05-27 13:50:27,057 log — Unauthorized: /api/companias/
+[WARNING] 2026-05-27 13:50:41,502 log — Unauthorized: /api/companias/
+[WARNING] 2026-05-27 13:50:54,100 log — Unauthorized: /api/companias/
+[INFO] 2026-05-27 13:53:12,649 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-27 13:53:17,427 log — Unauthorized: /api/auth/login/
+[WARNING] 2026-05-27 13:53:17,575 log — Unauthorized: /api/empleados/
+[INFO] 2026-05-27 13:53:18,167 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:18,458 compania_service — Compañía creada: Verificacion SAS 1779907992
+[INFO] 2026-05-27 13:53:19,045 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:19,774 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-27 13:53:20,498 log — Unprocessable Content: /api/companias/
+[INFO] 2026-05-27 13:53:20,502 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-27 13:53:23,650 log — Forbidden: /api/companias/9/
+[INFO] 2026-05-27 13:53:23,797 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:24,242 empleado_service — Empleado creado: Empleado
+[INFO] 2026-05-27 13:53:25,417 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:26,434 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-27 13:53:27,454 log — Unprocessable Content: /api/empleados/
+[INFO] 2026-05-27 13:53:27,748 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:28,479 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:28,767 compania_service — Compañía creada: Otra Verificacion SAS 1779907992
+[INFO] 2026-05-27 13:53:29,057 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:29,565 empleado_service — Empleado creado: Empleado
+[WARNING] 2026-05-27 13:53:30,002 log — Forbidden: /api/empleados/26/
+[WARNING] 2026-05-27 13:53:30,302 log — Forbidden: /api/empleados/25/
+[INFO] 2026-05-27 13:53:30,452 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:31,761 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:32,782 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-27 13:53:32,782 django_unit_of_work — Error en transacción: Hay correos duplicados en la solicitud. Ejecutando rollback.
+[WARNING] 2026-05-27 13:53:32,784 log — Bad Request: /api/empleados/bulk/
+[INFO] 2026-05-27 13:53:32,934 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:33,222 compania_service — Compañía creada con empleados: Trans OK SAS 1779907992
+[INFO] 2026-05-27 13:53:33,368 compania_service — Empleado creado: Trans
+[INFO] 2026-05-27 13:53:33,513 compania_service — Empleado creado: Trans
+[INFO] 2026-05-27 13:53:33,809 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:34,098 compania_service — Compañía creada con empleados: Trans Rollback SAS 1779907992
+[INFO] 2026-05-27 13:53:34,242 compania_service — Empleado creado: Roll
+[ERROR] 2026-05-27 13:53:34,388 django_unit_of_work — Error en transacción: duplicate key value violates unique constraint "empleados_correo_key"
+DETAIL:  Key (correo)=(rolldup_1779907992@mail.com) already exists.
+. Ejecutando rollback.
+[ERROR] 2026-05-27 13:53:34,531 companias_controller — Error en transaccion: duplicate key value violates unique constraint "empleados_correo_key"
+DETAIL:  Key (correo)=(rolldup_1779907992@mail.com) already exists.
+
+[WARNING] 2026-05-27 13:53:34,533 log — Bad Request: /api/companias/con-empleados/
+[INFO] 2026-05-27 13:53:35,115 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-27 13:53:35,841 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-28 10:54:13,512 log — Unauthorized: /api/companias/
+[INFO] 2026-05-28 10:54:32,535 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 10:57:53,960 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 10:57:57,712 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 10:57:58,004 compania_service — Compañía creada: codex_b_1779983873 Compania
+[INFO] 2026-05-28 10:58:30,647 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 10:58:34,203 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 10:58:34,496 compania_service — Compañía creada: codex_del_1779983910 Compania
+[INFO] 2026-05-28 10:58:34,794 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:06:54,316 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:07:23,466 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:07:26,795 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:07:27,092 compania_service — Compañía creada: codex_emp_1779984443
+[INFO] 2026-05-28 11:22:14,352 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-28 11:22:17,871 log — Unauthorized: /api/companias/
+[INFO] 2026-05-28 11:22:18,020 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:18,312 compania_service — Compañía creada: codex_1779985334 Compania A
+[INFO] 2026-05-28 11:22:18,461 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:21,683 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:22,416 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-28 11:22:23,459 log — Forbidden: /api/companias/16/
+[WARNING] 2026-05-28 11:22:23,611 log — Unprocessable Content: /api/empleados/
+[INFO] 2026-05-28 11:22:23,761 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:24,206 empleado_service — Empleado creado: Ana
+[INFO] 2026-05-28 11:22:25,696 django_unit_of_work — Iniciando transacción
+[WARNING] 2026-05-28 11:22:26,580 log — Forbidden: /api/empleados/33/
+[INFO] 2026-05-28 11:22:26,878 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:27,760 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:29,081 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:30,108 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:30,398 compania_service — Compañía creada con empleados: codex_1779985334 Compania B
+[INFO] 2026-05-28 11:22:30,544 compania_service — Empleado creado: Trans1
+[INFO] 2026-05-28 11:22:30,689 compania_service — Empleado creado: Trans2
+[INFO] 2026-05-28 11:22:31,131 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:31,865 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 11:22:32,891 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 12:41:02,383 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-28 12:41:12,686 log — Not Found: /
+[WARNING] 2026-05-28 12:41:27,156 log — Not Found: /
+[WARNING] 2026-05-28 12:41:27,705 log — Not Found: /favicon.ico
+[WARNING] 2026-05-28 12:43:34,618 log — Not Found: /accounts/login/
+[WARNING] 2026-05-28 12:43:37,374 log — Not Found: /accounts/login/
+[WARNING] 2026-05-28 12:44:04,784 log — Unprocessable Content: /api/auth/login/
+[WARNING] 2026-05-28 12:45:19,717 log — Not Found: /accounts/login/
+[INFO] 2026-05-28 12:46:51,436 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\config\settings.py changed, reloading.
+[INFO] 2026-05-28 12:46:58,119 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 12:47:00,041 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\auth_controller.py changed, reloading.
+[INFO] 2026-05-28 12:47:00,759 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 12:47:20,333 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\companias_controller.py changed, reloading.
+[INFO] 2026-05-28 12:47:21,095 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 12:47:33,472 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\empleados_controller.py changed, reloading.
+[INFO] 2026-05-28 12:47:34,219 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 12:47:59,689 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-28 12:48:04,775 log — Not Found: /
+[WARNING] 2026-05-28 12:48:12,962 log — Not Found: /
+[WARNING] 2026-05-28 12:49:08,006 log — Unauthorized: /api/companias/
+[WARNING] 2026-05-28 12:49:15,084 log — Unauthorized: /api/companias/
+[WARNING] 2026-05-28 12:49:58,118 log — Not Found: /accounts/login/
+[WARNING] 2026-05-28 12:50:44,858 log — Not Found: /docs/
+[INFO] 2026-05-28 12:54:16,765 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\config\urls.py changed, reloading.
+[INFO] 2026-05-28 12:54:17,622 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 12:54:29,876 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\auth_controller.py changed, reloading.
+[INFO] 2026-05-28 12:54:30,830 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 12:54:52,458 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\companias_controller.py changed, reloading.
+[INFO] 2026-05-28 12:54:53,207 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 12:55:15,849 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\empleados_controller.py changed, reloading.
+[INFO] 2026-05-28 12:55:16,614 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-28 12:56:59,214 log — Not Found: /
+[WARNING] 2026-05-28 12:57:47,306 log — Unauthorized: /api/auth/perfil/
+[WARNING] 2026-05-28 12:57:56,376 log — Unauthorized: /api/companias/
+[WARNING] 2026-05-28 12:57:57,769 log — Unauthorized: /api/companias/
+[INFO] 2026-05-28 13:00:56,809 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\config\settings.py changed, reloading.
+[INFO] 2026-05-28 13:01:04,331 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:01:15,033 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\auth_controller.py changed, reloading.
+[INFO] 2026-05-28 13:01:15,800 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:01:28,069 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\companias_controller.py changed, reloading.
+[INFO] 2026-05-28 13:01:28,976 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:01:45,534 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\empleados_controller.py changed, reloading.
+[INFO] 2026-05-28 13:01:46,399 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:02:20,894 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\auth_controller.py changed, reloading.
+[INFO] 2026-05-28 13:02:21,697 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:02:24,581 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\companias_controller.py changed, reloading.
+[INFO] 2026-05-28 13:02:25,332 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:02:31,342 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\api\controllers\empleados_controller.py changed, reloading.
+[INFO] 2026-05-28 13:02:32,086 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:04:18,273 autoreload — Watching for file changes with StatReloader
+[WARNING] 2026-05-28 13:05:18,119 log — Unauthorized: /api/auth/login/
+[WARNING] 2026-05-28 13:05:42,519 log — Unauthorized: /api/auth/login/
+[INFO] 2026-05-28 13:06:54,590 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-28 13:06:57,065 error_middleware — Error inesperado: insert or update on table "usuarios" violates foreign key constraint "usuarios_compania_id_fkey"
+DETAIL:  Key (compania_id)=(0) is not present in table "companias".
+
+[ERROR] 2026-05-28 13:06:57,067 log — Internal Server Error: /api/auth/registro/
+[INFO] 2026-05-28 13:07:21,966 django_unit_of_work — Iniciando transacción
+[INFO] 2026-05-28 13:09:22,852 autoreload — C:\ADSO-3278641-4T\mi-api-django-python-parte-ii\config\settings.py changed, reloading.
+[INFO] 2026-05-28 13:09:23,724 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:09:53,814 autoreload — Watching for file changes with StatReloader
+[INFO] 2026-05-28 13:11:24,232 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-28 13:11:25,737 django_unit_of_work — Error en transacción: Compania no encontrada. Ejecutando rollback.
+[WARNING] 2026-05-28 13:11:25,882 log — Bad Request: /api/auth/registro/
+[INFO] 2026-05-28 13:11:37,406 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-28 13:11:38,739 django_unit_of_work — Error en transacción: Compania no encontrada. Ejecutando rollback.
+[WARNING] 2026-05-28 13:11:38,883 log — Bad Request: /api/auth/registro/
+[INFO] 2026-05-28 13:11:49,457 django_unit_of_work — Iniciando transacción
+[ERROR] 2026-05-28 13:11:51,800 error_middleware — Error inesperado: insert or update on table "usuarios" violates foreign key constraint "usuarios_compania_id_fkey"
+DETAIL:  Key (compania_id)=(0) is not present in table "companias".
+
+[ERROR] 2026-05-28 13:11:51,800 log — Internal Server Error: /api/auth/registro/
+[INFO] 2026-05-28 13:12:04,736 django_unit_of_work — Iniciando transacción
