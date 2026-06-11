@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'corsheaders',
     'domain',
     'infrastructure',
     'application',
@@ -44,6 +45,7 @@ if HAS_DRF_SPECTACULAR:
     INSTALLED_APPS.append('drf_spectacular')
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -172,3 +174,7 @@ LOGGING = {
         'level': 'INFO',
     },
 }
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:5173',
+]

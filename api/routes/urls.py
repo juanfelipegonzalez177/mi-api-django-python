@@ -5,6 +5,7 @@ from api.controllers.empleados_controller import EmpleadoBulkDeleteView, Emplead
 
 urlpatterns = [
     path('api/auth/registro/', RegistroView.as_view()),
+    path('api/auth/register/', RegistroView.as_view()),  # alias frontend
     path('api/auth/login/', LoginView.as_view()),
     path('api/auth/perfil/', PerfilView.as_view()),
     path('api/companias/', CompaniasView.as_view()),
